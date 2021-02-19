@@ -1,0 +1,19 @@
+p = i;    
+q = &j;
+p = &*&i;
+i = (*&)j;
+i = *&j;
+i = *&*&j;
+q = *p;
+i = (*p)++ + *q;
+
+Em ordem
+
+Inválido
+Valido
+Valido
+Inválido
+Valido
+Valido
+Inválido
+Valido
