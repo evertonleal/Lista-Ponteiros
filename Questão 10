@@ -1,24 +1,24 @@
 resultados: 
 
-CHAR
+char:
 posicao 0 6422300
 posicao 1 6422301
 posicao 2 6422302
 posicao 3 6422303
 
-INT
+int:
 posicao 0 6422284
 posicao 1 6422288
 posicao 2 6422292
 posicao 3 6422296
 
-FLOAT
+float:
 posicao 0 6422268
 posicao 1 6422272
 posicao 2 6422276
 posicao 3 6422280
 
-DOUBLE
+double:
 posicao 0 6422232
 posicao 1 6422240
 posicao 2 6422248
