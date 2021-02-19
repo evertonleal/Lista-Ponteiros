@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+void soma(int a[], int b[], int c[], int n){
+    int i;
+    for(i = 0; i < n; i++){
+        c[i] = a[i] + b[i];
+    }
+
+    for(i = 0; i < n; i++){
+        printf("%d ", c[i]);
+    }
+}
+
+int main(){
+    int n, i;
+    int x[n], y[n], z[n];
+
+    printf("numero de elementos \n");
+    scanf("%d \n", n);
+
+    for(i = 0; i < n; i++){
+        printf("elemento %d do vetor 1 \n", i);
+        scanf("%d", x[i]);
+
+        printf("elemento %d do vetor 2 \n", i);
+        scanf("%d", y[i]);}
+
+    soma(x,y,z,n);
+
+    return 0;
+}
