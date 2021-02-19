@@ -1,0 +1,11 @@
+p = mat + 1;
+p = mat++;
+p = ++mat;
+x = (*mat)++;
+
+repostas em ordem:
+
+Valido: incrementa uma posição
+Inválido: tenta incrementar um valor
+Inválido: tenta incrementar um valor
+Valido: mat foi descrito como ponteiro
