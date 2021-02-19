@@ -1,0 +1,12 @@
+definição: um ponteiro é uma variável que contém um endereço de memória
+
+#include <stdio.h>
+int main() {
+  int x = 2;
+  int *y;
+  y = &x;
+  printf("x: %d\n" , x);
+  printf("x: %d\n" , y);
+  
+  return 0;
+  }
