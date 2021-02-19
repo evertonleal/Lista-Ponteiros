@@ -10,10 +10,10 @@ i = (*p)++ + *q;
 Em ordem
 
 Inválido
-Valido
-Valido
+Válido
+Válido
 Inválido
-Valido
-Valido
+Válido
+Válido
 Inválido
-Valido
+Válido
